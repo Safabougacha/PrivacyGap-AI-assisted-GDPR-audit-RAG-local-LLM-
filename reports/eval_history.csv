@@ -1,0 +1,4 @@
+date,label,cases,flows,risk_accuracy,issue_recall,issue_precision,contradiction_accuracy,contradiction_precision,article_recall,false_alerts
+2026-10-11 16:52,baseline,control_app+flo+trap_app,26,0.769,1.0,0.7,0.577,0.476,0.927,6
+2026-10-11 17:10,two_questions,control_app+flo+trap_app,26,0.769,1.0,0.7,0.538,0.45,0.927,6
+2026-10-11 17:33,quote_located,control_app+flo+trap_app,26,1.0,1.0,1.0,0.808,0.692,0.927,0

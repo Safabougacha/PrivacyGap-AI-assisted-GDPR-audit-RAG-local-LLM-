@@ -1,0 +1,8 @@
+flow_id,event_name,data_fields,recipient,recipient_type,purpose,consent,source
+TRP-01,activity_sync,"steps, heart rate and sleep data",StepWell servers,internal,activity and wellbeing dashboard for the user,bundled,Fictional trap case
+TRP-02,sleep_insights_share,sleep quality and heart rate,Health insurance partner,third_party,personalised insurance offers,bundled,Fictional trap case
+TRP-03,analytics_events,"device ID, screens viewed, session duration",US analytics provider (servers in the United States),processor,product analytics,bundled,Fictional trap case
+TRP-04,local_offers,approximate location,Advertising partner,third_party,local gym offers,opt_in,Fictional trap case
+TRP-05,data_retention,full account history,StepWell servers,internal,"kept ""as long as necessary"" (no defined period)",bundled,Fictional trap case
+TRP-06,crash_report,"device model, OS version, crash stack trace",Crash reporting provider,processor,fixing app crashes under a processor contract,general_terms,Fictional trap case
+TRP-07,newsletter,email address,Email delivery provider,processor,sending the newsletter,opt_in,Fictional trap case

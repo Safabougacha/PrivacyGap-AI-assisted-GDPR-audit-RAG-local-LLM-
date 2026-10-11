@@ -1,0 +1,12 @@
+flow_id,contradicts_policy,risk_level,expected_articles,rationale
+FLO-01,yes,high,9;6;13,"Health data sent to a third party for advertising; breaks P1-P3; no explicit consent (art. 9)"
+FLO-02,yes,high,9;6;13,"Pregnancy data is health data; shared for advertising; breaks P3"
+FLO-03,yes,high,9;6;13,"Cycle length is health data; breaks P3"
+FLO-04,yes,high,9;6;13,"Symptoms are health data; breaks P3"
+FLO-05,yes,high,9;6;13,"Sex life is a special category (art. 9); breaks P3"
+FLO-06,yes,high,9;6;13,"Events reveal health information to a third party; breaks P3 and P4"
+FLO-07,yes,medium,6;13,"Not health data, but marketing attribution is not an 'essential technical service' (P4)"
+FLO-08,no,medium,6;13,"Usage analytics is announced in P5, but relies on general terms instead of a valid legal basis"
+FLO-09,yes,medium,6;13,"Cross-platform ad tracking goes beyond P5 'understand how the app is used'"
+FLO-10,no,medium,9;7,"Use announced in P2 (no contradiction), but health data needs explicit consent (art. 9); accepting general terms is not explicit consent (art. 7)"
+FLO-11,no,low,28,"Hosting by a processor is announced in P4; requires a processor contract (art. 28)"

@@ -1,0 +1,511 @@
+[
+  {
+    "flow_id": "FLO-01",
+    "flow": {
+      "flow_id": "FLO-01",
+      "event_name": "R_SELECT_LAST_PERIOD_DATE",
+      "data_fields": "date of the last menstrual period",
+      "recipient": "Meta (Facebook) SDK",
+      "recipient_type": "third_party",
+      "purpose": "targeted advertising and analytics",
+      "consent": "general_terms",
+      "source": "Event name shown at trial, Frasco v. Flo Health (2025)"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'menstrua')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "GDPR Art. 9(1)(e)"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      12,
+      13,
+      14,
+      40
+    ],
+    "justification": "The data subject's last menstrual period date was shared with Meta (Facebook) via their SDK for targeted advertising and analytics purposes. This sharing constitutes the processing of special categories of personal data (Article 9 GDPR) as it involves sensitive health information. The data was also used for a secondary purpose (targeted advertising and analytics) without the explicit consent of the data subject, as per Article 13(3) GDPR. Additionally, the data subject's consent was provided for general terms, which does not cover the specific purpose of sharing the last menstrual period date, as per Article 7(4) GDPR.",
+    "recommendation": "Implement clear and explicit consent mechanisms for the specific purpose of sharing sensitive health information such as the last menstrual period date. Ensure that all data processing activities, including secondary purposes, are only carried out with the explicit consent of the data subject. Conduct a thorough review of existing data flows and ensure compliance with GDPR Article 9 and Article 13(3).",
+    "seconds": 34.5
+  },
+  {
+    "flow_id": "FLO-02",
+    "flow": {
+      "flow_id": "FLO-02",
+      "event_name": "pregnancy goal event (name not public)",
+      "data_fields": "pregnancy status and intention to get pregnant",
+      "recipient": "Meta (Facebook) SDK",
+      "recipient_type": "third_party",
+      "purpose": "targeted advertising and analytics",
+      "consent": "general_terms",
+      "source": "FTC complaint (2021); Frasco v. Flo Health"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'pregnan')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "pregnancy status and intention to get pregnant"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      13,
+      14,
+      21,
+      40
+    ],
+    "justification": "The data subject's pregnancy status and intention to get pregnant are considered special categories of personal data under GDPR Article 9. Since the data is shared with a third party (Meta, Facebook) for targeted advertising and analytics purposes, which is not for the primary purpose of the data collection, and given that the consent provided was for general terms, the processing of this sensitive data without explicit consent is in violation of GDPR Article 13(3). Additionally, the secondary use of this data for targeted advertising purposes without the data subject's explicit consent is also in violation of GDPR Article 6(1)(a) and Article 7(4).",
+    "recommendation": "Implement explicit consent for the collection and processing of special category data such as pregnancy status and intention to get pregnant, and ensure that the data is only used for the primary purpose of the data collection. Additionally, review and update the general terms of consent to ensure that they include clear and specific information about the secondary uses of the data.",
+    "seconds": 32.5
+  },
+  {
+    "flow_id": "FLO-03",
+    "flow": {
+      "flow_id": "FLO-03",
+      "event_name": "cycle settings event (name not public)",
+      "data_fields": "menstrual cycle length",
+      "recipient": "Meta (Facebook) SDK",
+      "recipient_type": "third_party",
+      "purpose": "targeted advertising and analytics",
+      "consent": "general_terms",
+      "source": "Examples reported in court (case study, slide 'What data they used')"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'menstrua')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "menstrual cycle length"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      12,
+      13,
+      14,
+      21,
+      36,
+      40
+    ],
+    "justification": "The data subject's menstrual cycle length, which falls under the category of special categories of personal data (GDPR Article 9(c)), is being processed for a secondary purpose (targeted advertising and analytics) by Meta (Facebook) through the use of their SDK, without the explicit consent required by GDPR Article 9(c). Additionally, the general terms consent provided by the data subject does not cover the secondary processing of this sensitive data, as per GDPR Article 13(4).",
+    "recommendation": "Implement explicit consent for the secondary processing of menstrual cycle length data for targeted advertising and analytics purposes, and ensure that such consent is provided in accordance with GDPR Article 13(4).",
+    "seconds": 28.6
+  },
+  {
+    "flow_id": "FLO-04",
+    "flow": {
+      "flow_id": "FLO-04",
+      "event_name": "symptoms event (name not public)",
+      "data_fields": "symptoms: mood swings, cramps, PMS, fatigue",
+      "recipient": "Meta (Facebook) SDK",
+      "recipient_type": "third_party",
+      "purpose": "targeted advertising and analytics",
+      "consent": "general_terms",
+      "source": "Case study, slide 'What data was leaked'"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'symptom')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "symptoms related to reproductive health"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      36,
+      40,
+      57,
+      59
+    ],
+    "justification": "The data subject's symptoms (mood swings, cramps, PMS, fatigue) are considered special categories of personal data under GDPR Article 9. Since the processing of these data is not necessary for the performance of a contract or compliance with a legal obligation, and no explicit consent was provided, the processing constitutes a violation of GDPR Article 9(c) and Article 13(3). Additionally, the data are shared with a third party (Meta) for a secondary purpose (targeted advertising and analytics) without the data subject's prior knowledge and consent, in violation of GDPR Article 13(3).",
+    "recommendation": "Implement clear and explicit consent mechanisms for the processing of special category data, and ensure that all secondary purposes of data processing are communicated to the data subject prior to the processing. Additionally, review and update the privacy notice to include all relevant information about the data processing activities.",
+    "seconds": 31.8
+  },
+  {
+    "flow_id": "FLO-05",
+    "flow": {
+      "flow_id": "FLO-05",
+      "event_name": "sexual activity event (name not public)",
+      "data_fields": "sexual activity logs",
+      "recipient": "Meta (Facebook) SDK",
+      "recipient_type": "third_party",
+      "purpose": "targeted advertising and analytics",
+      "consent": "general_terms",
+      "source": "Frasco v. Flo Health; case study"
+    },
+    "special_category": true,
+    "special_reason": "sex life data",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "sexual activity logs"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      21,
+      40,
+      59,
+      70
+    ],
+    "justification": "The assessment found that personal data, including special categories of personal data related to sexual activity, were shared with Meta (Facebook) via the Facebook SDK for targeted advertising and analytics purposes. This sharing occurred without the explicit consent of the data subject, as the consent provided was for general terms and conditions, not for the specific purpose of sharing such sensitive data. Additionally, the data was used for a secondary purpose (targeted advertising and analytics) without the explicit consent required for such processing under GDPR Article 9(1)(c).",
+    "recommendation": "Implement clear, specific, and informed consent for the collection and processing of sexual activity data, and ensure that such data is only used for the specific purpose of targeted advertising and analytics, as per GDPR Article 6(1)(b) and Article 7. Additionally, review and update the privacy policy to reflect the new consent requirements and data processing purposes.",
+    "seconds": 31.0
+  },
+  {
+    "flow_id": "FLO-06",
+    "flow": {
+      "flow_id": "FLO-06",
+      "event_name": "health-related app events (names not public)",
+      "data_fields": "app events revealing period and pregnancy intention",
+      "recipient": "Google Analytics SDK",
+      "recipient_type": "third_party",
+      "purpose": "usage analytics and campaign tracking",
+      "consent": "general_terms",
+      "source": "FTC complaint (2021); case study, SDK table"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'period')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "period and pregnancy intention"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      21,
+      40
+    ],
+    "justification": "The data flow involves the collection and processing of personal data, including period and pregnancy intention, which are considered special categories of personal data under GDPR Article 9. Given that the data subject's consent was only provided for general terms and conditions, and no explicit consent was obtained for the secondary purpose of usage analytics and campaign tracking, the processing of this sensitive data without proper consent poses a high risk of non-compliance with GDPR Article 9 and Article 7.",
+    "recommendation": "Implement a clear and explicit consent process for the collection and processing of special category data, ensuring that the data subject's consent is obtained for each specific purpose, including usage analytics and campaign tracking, as per GDPR Article 9 and Article 7.",
+    "seconds": 28.7
+  },
+  {
+    "flow_id": "FLO-07",
+    "flow": {
+      "flow_id": "FLO-07",
+      "event_name": "app_open / conversion events",
+      "data_fields": "device identifier and conversion events",
+      "recipient": "AppsFlyer SDK",
+      "recipient_type": "third_party",
+      "purpose": "marketing attribution",
+      "consent": "general_terms",
+      "source": "Case study, SDK table"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "conversion events"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "secondary use (marketing, tracking or analytics) without a valid opt-in",
+      "the flow goes beyond what the privacy policy announces"
+    ],
+    "cited_articles": [
+      6,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      12,
+      13,
+      14,
+      21
+    ],
+    "justification": "The assessment is that the secondary use of device identifiers and conversion events for marketing and tracking purposes without a valid opt-in is a risk, as the privacy policy only announces the primary use (marketing attribution) and does not specify or obtain consent for secondary uses. This aligns with GDPR Article 13(3) and Article 6(1)(a), which require the controller to provide information on secondary purposes and obtain consent where applicable.",
+    "recommendation": "Implement a clear and explicit opt-in process for secondary uses of personal data, ensuring that the privacy policy accurately reflects all intended uses, and update the AppsFlyer SDK to reflect these changes. Obtain consent for any secondary uses of personal data in accordance with GDPR Article 6(1)(a).",
+    "seconds": 28.2
+  },
+  {
+    "flow_id": "FLO-08",
+    "flow": {
+      "flow_id": "FLO-08",
+      "event_name": "usage analytics events",
+      "data_fields": "app usage and behavioural metrics",
+      "recipient": "Yahoo Flurry SDK",
+      "recipient_type": "third_party",
+      "purpose": "behavioural analytics",
+      "consent": "general_terms",
+      "source": "Case study, SDK table; Flurry settled in March 2025"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "app usage and behavioural metrics"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "secondary use (marketing, tracking or analytics) without a valid opt-in",
+      "the flow goes beyond what the privacy policy announces"
+    ],
+    "cited_articles": [
+      6,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      13,
+      14,
+      59
+    ],
+    "justification": "According to GDPR Article 13(3), where the controller intends to further process personal data for a purpose other than that for which the data were initially collected, the controller must provide the data subject with information on that other purpose and any relevant further information as referred to in Article 13(2). In this case, the secondary use of the data for marketing, tracking, or analytics without a valid opt-in is not aligned with the information provided in the privacy policy, as per Article 13(4).",
+    "recommendation": "The controller should ensure that any secondary use of the personal data, such as for marketing or analytics, is only done with the explicit consent of the data subject, as per GDPR Article 6(1)(a). Additionally, the privacy policy should be updated to reflect the secondary use of the data, and the controller should provide the data subject with the necessary information as per GDPR Article 13(3).",
+    "seconds": 32.6
+  },
+  {
+    "flow_id": "FLO-09",
+    "flow": {
+      "flow_id": "FLO-09",
+      "event_name": "advertising identifier",
+      "data_fields": "advertising ID (IDFA / GAID) for cross-platform tracking",
+      "recipient": "Ad networks via SDKs",
+      "recipient_type": "third_party",
+      "purpose": "retargeting and cross-platform tracking",
+      "consent": "general_terms",
+      "source": "Case study, slide 'What data was leaked'"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "device identifier for cross-platform tracking"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "secondary use (marketing, tracking or analytics) without a valid opt-in",
+      "the flow goes beyond what the privacy policy announces"
+    ],
+    "cited_articles": [
+      6,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      13,
+      14,
+      21,
+      87
+    ],
+    "justification": "The assessment is already decided based on GDPR Article 13(4), as the data subject already has the information. Additionally, the processing of the advertising ID for secondary purposes such as marketing and tracking without a valid opt-in is in violation of GDPR Article 6(1)(a), as consent is required for such processing.",
+    "recommendation": "Implement a clear and explicit opt-in mechanism for secondary uses of the advertising ID, ensuring compliance with GDPR Article 6(1)(a). Update the privacy policy to reflect the new opt-in requirements and provide the data subject with the necessary information as per GDPR Article 13(2).",
+    "seconds": 27.9
+  },
+  {
+    "flow_id": "FLO-10",
+    "flow": {
+      "flow_id": "FLO-10",
+      "event_name": "cycle prediction sync",
+      "data_fields": "cycle dates and symptoms",
+      "recipient": "Flo servers",
+      "recipient_type": "internal",
+      "purpose": "cycle predictions shown to the user",
+      "consent": "general_terms",
+      "source": "Core app service (case study, 'Data Flow' slide)"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'cycle')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "cycle dates and symptoms"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "special-category data processed without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      33,
+      36,
+      40
+    ],
+    "justification": "The processing of personal data for cycle predictions on Flo servers is considered a processing of special categories of personal data (Article 9 GDPR) as it involves the collection and further processing of data related to the user's health and reproductive cycle. However, the data subject has already provided general terms consent, which does not meet the requirement of Article 9(1)(c) or (d) as it is not necessary for the vital interests of the data subject or for the processing to be carried out in the course of the controller's legitimate activities with appropriate safeguards. Therefore, the processing of this special category data without explicit consent is not compliant with GDPR Article 9(1)(c) or (d).",
+    "recommendation": "Implement explicit consent for the processing of special categories of personal data related to health and reproductive cycle, as required by GDPR Article 9(1)(c) or (d), to ensure compliance with the regulation.",
+    "seconds": 33.2
+  },
+  {
+    "flow_id": "FLO-11",
+    "flow": {
+      "flow_id": "FLO-11",
+      "event_name": "account hosting",
+      "data_fields": "account data and app content",
+      "recipient": "Cloud hosting provider",
+      "recipient_type": "processor",
+      "purpose": "web hosting under contract",
+      "consent": "general_terms",
+      "source": "Policy P4 (essential technical services)"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "account data and app content"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P4",
+    "policy_explanation": "announced in P4",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      5,
+      6,
+      13,
+      28
+    ],
+    "justification": "The data flow involves account data and app content being processed by a cloud hosting provider under a contract, where the controller has provided general terms of service consent. This meets the legal requirements as the processing is lawful due to the valid consent provided by the data subject. Additionally, the controller has ensured that the processor (the cloud hosting provider) is using sufficient guarantees to implement appropriate technical and organizational measures, as required by GDPR Article 28. The processor has also obtained prior specific or general written authorization from the controller for engaging another processor, ensuring compliance with GDPR Article 28.",
+    "recommendation": "No immediate recommendations are needed as the current setup complies with GDPR requirements. However, it is recommended to periodically review and update the contract and authorization processes to maintain compliance.",
+    "seconds": 31.5
+  }
+]

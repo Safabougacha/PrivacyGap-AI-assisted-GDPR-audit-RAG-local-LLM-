@@ -1,0 +1,22 @@
+# Secrets — never commit the real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local vector database (rebuilt with `python -m src.ingest`)
+chroma_db/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# GDPR source file (downloaded by src.ingest, not redistributed)
+data/legal/*.pdf
+data/legal/*.html
+.streamlit/secrets.toml

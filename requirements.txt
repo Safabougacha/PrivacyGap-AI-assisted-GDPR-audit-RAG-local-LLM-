@@ -1,0 +1,8 @@
+requests>=2.31
+google-genai>=1.20,<3
+chromadb>=0.5,<2
+pydantic>=2.6,<3
+python-dotenv>=1.0
+pandas>=2.1
+pypdf>=4.0
+streamlit>=1.50

@@ -1,0 +1,345 @@
+[
+  {
+    "flow_id": "CTL-01",
+    "flow": {
+      "flow_id": "CTL-01",
+      "event_name": "cycle_logged",
+      "data_fields": "cycle dates and symptoms",
+      "recipient": "ClearCycle servers (EU)",
+      "recipient_type": "internal",
+      "purpose": "cycle predictions shown to the user",
+      "consent": "explicit",
+      "source": "Fictional control case"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'cycle')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "sexual health and reproductive health"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P1",
+    "policy_explanation": "announced in P1",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      14,
+      33,
+      36,
+      40
+    ],
+    "justification": "The processing of personal data for cycle predictions is carried out in the course of its legitimate activities with appropriate safeguards by ClearCycle servers (EU), which are a foundation with a trade union aim. The data subject has given explicit consent for the processing of their personal data for the specific purpose of cycle predictions, which is necessary for the performance of a contract to which the data subject is party. Additionally, the processors are under contract and subject to appropriate safeguards, ensuring compliance with the legal obligations under GDPR Article 6(1)(b).",
+    "recommendation": "No further action is required as the processing is lawful, transparent, and subject to appropriate safeguards. However, regular audits and monitoring should be conducted to ensure ongoing compliance with GDPR.",
+    "seconds": 33.6
+  },
+  {
+    "flow_id": "CTL-02",
+    "flow": {
+      "flow_id": "CTL-02",
+      "event_name": "pregnancy_mode_on",
+      "data_fields": "pregnancy status",
+      "recipient": "ClearCycle servers (EU)",
+      "recipient_type": "internal",
+      "purpose": "pregnancy tracking feature requested by the user",
+      "consent": "explicit",
+      "source": "Fictional control case"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'pregnan')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "pregnancy status"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      13,
+      14,
+      40,
+      57
+    ],
+    "justification": "The personal data of the user's pregnancy status are collected and processed by ClearCycle servers in the EU for the purpose of the pregnancy tracking feature, which was explicitly consented by the data subject. The processing is lawful as it is based on the explicit consent provided by the data subject, and the data are further processed for a purpose other than the initial collection, which is also disclosed to the data subject. Additionally, the processors are under contract and subject to appropriate safeguards, ensuring compliance with the GDPR requirements.",
+    "recommendation": "No further action is required as the processing complies with the GDPR requirements. However, regular audits and monitoring of the data processing activities should be conducted to ensure ongoing compliance.",
+    "seconds": 30.0
+  },
+  {
+    "flow_id": "CTL-03",
+    "flow": {
+      "flow_id": "CTL-03",
+      "event_name": "account_storage",
+      "data_fields": "account data and app content",
+      "recipient": "EU cloud hosting provider",
+      "recipient_type": "processor",
+      "purpose": "web hosting under a processor contract",
+      "consent": "explicit",
+      "source": "Fictional control case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "account data and app content"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P7",
+    "policy_explanation": "announced in P7",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      28
+    ],
+    "justification": "The data flow involves account data and app content being processed by an EU cloud hosting provider under a processor contract. The explicit consent provided by the data subject is a valid legal basis for the processing. Additionally, the processor is under a contract with the controller, ensuring compliance with the requirements of the GDPR. No further action is recommended as the current setup meets the legal requirements.",
+    "recommendation": "No further action is required as the current setup complies with GDPR requirements. However, regular audits and monitoring of the processor's compliance should be maintained.",
+    "seconds": 28.5
+  },
+  {
+    "flow_id": "CTL-04",
+    "flow": {
+      "flow_id": "CTL-04",
+      "event_name": "crash_report",
+      "data_fields": "device model, OS version, crash stack trace (no health data)",
+      "recipient": "Crash reporting provider (EU)",
+      "recipient_type": "processor",
+      "purpose": "fixing app crashes under a processor contract",
+      "consent": "opt_in",
+      "source": "Fictional control case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "device model and OS version"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P7",
+    "policy_explanation": "announced in P7",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      7,
+      28,
+      40,
+      82
+    ],
+    "justification": "The processing of device model, OS version, and crash stack trace by the crash reporting provider is carried out under a valid legal basis as the data subject has provided consent to opt-in for the processing of their personal data for the purpose of fixing app crashes. Additionally, the processor is compliant with the requirements of the GDPR as they are under a contract with the controller and have implemented appropriate technical and organisational measures as required by GDPR Article 28.",
+    "recommendation": "No further action is recommended as the current arrangements comply with the GDPR requirements. However, regular audits and reviews of the processor's compliance should be conducted to ensure ongoing adherence to the GDPR.",
+    "seconds": 32.4
+  },
+  {
+    "flow_id": "CTL-05",
+    "flow": {
+      "flow_id": "CTL-05",
+      "event_name": "usage_stats",
+      "data_fields": "aggregated, anonymous screen views",
+      "recipient": "Self-hosted analytics",
+      "recipient_type": "internal",
+      "purpose": "improving the app",
+      "consent": "opt_in",
+      "source": "Fictional control case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "GDPR Art. 9 data"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P5",
+    "policy_explanation": "announced in P5",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      25,
+      40,
+      86
+    ],
+    "justification": "The processing of aggregated, anonymous screen views is lawful as it is done with the consent of the data subject, who has opted-in for the self-hosted analytics to improve the app. The use of consent as the legal basis for processing is valid and the data processors are under contract, ensuring compliance and data protection.",
+    "recommendation": "No further action is recommended as the current legal basis for processing is valid and the data processors are under contract. However, regular audits should be conducted to ensure ongoing compliance with GDPR.",
+    "seconds": 28.6
+  },
+  {
+    "flow_id": "CTL-06",
+    "flow": {
+      "flow_id": "CTL-06",
+      "event_name": "password_reset_email",
+      "data_fields": "email address",
+      "recipient": "Email delivery provider (EU)",
+      "recipient_type": "processor",
+      "purpose": "sending account emails under a processor contract",
+      "consent": "general_terms",
+      "source": "Fictional control case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "GDPR Art. 9(1)e - Sex life"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P6",
+    "policy_explanation": "announced in P6",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      28
+    ],
+    "justification": "The data flow involves the email address being sent to an email delivery provider in the EU under a processor contract. The use of the processor is disclosed, and the legal basis for processing is valid consent provided in the general terms of the contract. The processor is also under contract and has provided sufficient guarantees to ensure appropriate technical and organizational measures are in place to protect the rights of the data subject. Therefore, the risk is low.",
+    "recommendation": "No further action is required as the current setup complies with the requirements of GDPR Article 6 and Article 28. However, regular audits and compliance checks should be conducted to ensure ongoing adherence to GDPR regulations.",
+    "seconds": 32.0
+  },
+  {
+    "flow_id": "CTL-07",
+    "flow": {
+      "flow_id": "CTL-07",
+      "event_name": "account_deletion",
+      "data_fields": "all account data",
+      "recipient": "ClearCycle servers (EU)",
+      "recipient_type": "internal",
+      "purpose": "deletion within 30 days after account closure",
+      "consent": "explicit",
+      "source": "Fictional control case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "account data"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P7",
+    "policy_explanation": "announced in P7",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      17,
+      33
+    ],
+    "justification": "The processing of account data for deletion within 30 days after account closure is lawful as it is based on the explicit consent of the data subject, as per GDPR Article 6(1)(a). Additionally, the use of this data is disclosed and the processors are under contract, ensuring compliance with the legal obligations under GDPR Article 28.",
+    "recommendation": "No further action is recommended as the current practices align with the requirements of GDPR Article 6 and Article 28.",
+    "seconds": 26.7
+  },
+  {
+    "flow_id": "CTL-08",
+    "flow": {
+      "flow_id": "CTL-08",
+      "event_name": "data_export",
+      "data_fields": "cycle history requested by the user",
+      "recipient": "The user (download)",
+      "recipient_type": "internal",
+      "purpose": "right to data portability",
+      "consent": "explicit",
+      "source": "Fictional control case"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'cycle')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "cycle history"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P6",
+    "policy_explanation": "announced in P6",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      13,
+      15,
+      40
+    ],
+    "justification": "The processing of personal data for the purpose of providing the user with the right to data portability is lawful as the user has given explicit consent. Additionally, the processing is necessary for the performance of a contract to which the user is party, as the user requested the cycle history service. The data controller has also ensured that the processors are under contract and subject to appropriate safeguards, aligning with the requirements of GDPR Article 6(1)(b).",
+    "recommendation": "No further action is required as the processing complies with the conditions set forth in GDPR Article 6(1)(b) and Article 9(1)(d). However, regular audits should be conducted to ensure ongoing compliance with the GDPR.",
+    "seconds": 32.5
+  }
+]

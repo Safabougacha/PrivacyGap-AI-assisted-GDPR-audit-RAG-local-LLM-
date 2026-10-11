@@ -1,0 +1,9 @@
+flow_id,contradicts_policy,risk_level,expected_articles,rationale
+CTL-01,no,low,9;7,"Health data used for the service, with explicit separate consent (P1-P2)"
+CTL-02,no,low,9;7,"Pregnancy data processed with explicit consent for a requested feature"
+CTL-03,no,low,28,"Processor under contract, EU hosting (P4, P7)"
+CTL-04,no,low,28,"No health data; processor under contract; opt-in (P4)"
+CTL-05,no,low,5;6,"Aggregated anonymous statistics with consent (P5)"
+CTL-06,no,low,28;6,"Email needed for the account service; processor under contract"
+CTL-07,no,low,5;17,"Storage limitation respected, deletion after closure (P6)"
+CTL-08,no,low,20,"Right to data portability honoured"

@@ -1,0 +1,9 @@
+flow_id,event_name,data_fields,recipient,recipient_type,purpose,consent,source
+CTL-01,cycle_logged,cycle dates and symptoms,ClearCycle servers (EU),internal,cycle predictions shown to the user,explicit,Fictional control case
+CTL-02,pregnancy_mode_on,pregnancy status,ClearCycle servers (EU),internal,pregnancy tracking feature requested by the user,explicit,Fictional control case
+CTL-03,account_storage,account data and app content,EU cloud hosting provider,processor,web hosting under a processor contract,explicit,Fictional control case
+CTL-04,crash_report,"device model, OS version, crash stack trace (no health data)",Crash reporting provider (EU),processor,fixing app crashes under a processor contract,opt_in,Fictional control case
+CTL-05,usage_stats,"aggregated, anonymous screen views",Self-hosted analytics,internal,improving the app,opt_in,Fictional control case
+CTL-06,password_reset_email,email address,Email delivery provider (EU),processor,sending account emails under a processor contract,general_terms,Fictional control case
+CTL-07,account_deletion,all account data,ClearCycle servers (EU),internal,deletion within 30 days after account closure,explicit,Fictional control case
+CTL-08,data_export,cycle history requested by the user,The user (download),internal,right to data portability,explicit,Fictional control case

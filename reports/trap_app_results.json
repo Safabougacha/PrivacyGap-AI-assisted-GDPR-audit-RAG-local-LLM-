@@ -1,0 +1,317 @@
+[
+  {
+    "flow_id": "TRP-01",
+    "flow": {
+      "flow_id": "TRP-01",
+      "event_name": "activity_sync",
+      "data_fields": "steps, heart rate and sleep data",
+      "recipient": "StepWell servers",
+      "recipient_type": "internal",
+      "purpose": "activity and wellbeing dashboard for the user",
+      "consent": "bundled",
+      "source": "Fictional trap case"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'heart rate')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "health data"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "special-category data processed without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      30,
+      40
+    ],
+    "justification": "The processing of heart rate and sleep data, which are considered special categories of personal data under GDPR Article 9, is taking place without explicit consent. This is in violation of Article 9(c) and Article 9(d), as the processing is not necessary for the vital interests of the data subject or for the legitimate activities of a not-for-profit body, and the data subject is not a member or former member of such an organization. Additionally, the data subject did not provide explicit consent for the processing of this special category data, as per GDPR Article 13(4).",
+    "recommendation": "Implement explicit consent for the processing of heart rate and sleep data, ensuring that the data subject is provided with the necessary information as per GDPR Article 13, and that the processing is only for purposes that are necessary and not for purposes that are not necessary for the performance of a contract.",
+    "seconds": 32.7
+  },
+  {
+    "flow_id": "TRP-02",
+    "flow": {
+      "flow_id": "TRP-02",
+      "event_name": "sleep_insights_share",
+      "data_fields": "sleep quality and heart rate",
+      "recipient": "Health insurance partner",
+      "recipient_type": "third_party",
+      "purpose": "personalised insurance offers",
+      "consent": "bundled",
+      "source": "Fictional trap case"
+    },
+    "special_category": true,
+    "special_reason": "health data (keyword: 'sleep')",
+    "llm_opinion": {
+      "health_or_sex_life": true,
+      "data_description": "sleep quality and heart rate"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": true,
+    "policy_reference": "",
+    "policy_explanation": "no commitment of the policy announces this flow",
+    "risk_level": "high",
+    "risk_reasons": [
+      "special-category data shared with a third party or used for a secondary purpose without explicit consent"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      9,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      4,
+      6,
+      7,
+      9,
+      13,
+      14,
+      40
+    ],
+    "justification": "The data flow involves the processing of personal data, specifically sleep quality and heart rate, which are considered special categories of personal data under GDPR Article 9. These data are being shared with a third party (Health insurance partner) for the purpose of providing personalised insurance offers. This processing is not for the purpose of the original data collection, as per GDPR Article 13(3), and thus requires explicit consent. However, the consent provided is for a bundled service, which does not meet the requirements of GDPR Article 7(4) as the performance of a contract is not conditional on consent to the processing of personal data that is not necessary for the performance of that contract. Therefore, the processing of these special categories of personal data without explicit consent poses a high risk.",
+    "recommendation": "Implement explicit consent for the processing of sleep quality and heart rate data for the purpose of providing personalised insurance offers, ensuring that the consent is not bundled with other services and is necessary for the performance of the contract.",
+    "seconds": 32.8
+  },
+  {
+    "flow_id": "TRP-03",
+    "flow": {
+      "flow_id": "TRP-03",
+      "event_name": "analytics_events",
+      "data_fields": "device ID, screens viewed, session duration",
+      "recipient": "US analytics provider (servers in the United States)",
+      "recipient_type": "processor",
+      "purpose": "product analytics",
+      "consent": "bundled",
+      "source": "Fictional trap case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "device ID, screens viewed, session duration"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P1",
+    "policy_explanation": "announced in P1",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "secondary use (marketing, tracking or analytics) without a valid opt-in",
+      "transfer outside the EU"
+    ],
+    "cited_articles": [
+      6,
+      13,
+      28,
+      44
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      12,
+      13,
+      14,
+      28,
+      36,
+      44,
+      45,
+      46,
+      59
+    ],
+    "justification": "The data flow from the device ID, screens viewed, and session duration to the US analytics provider for product analytics involves a secondary use of the data without a valid opt-in, as the consent provided by the data subject was bundled and not specific for the secondary use. Additionally, the transfer of personal data to a third country (United States) is not compliant with the GDPR as no valid legal basis or transfer mechanism is in place.",
+    "recommendation": "Implement a clear and specific opt-in for any secondary uses of the data, such as marketing and analytics, and ensure that the transfer to the US analytics provider complies with the GDPR's transfer mechanisms, such as standard contractual clauses or other suitable safeguards.",
+    "seconds": 30.3
+  },
+  {
+    "flow_id": "TRP-04",
+    "flow": {
+      "flow_id": "TRP-04",
+      "event_name": "local_offers",
+      "data_fields": "approximate location",
+      "recipient": "Advertising partner",
+      "recipient_type": "third_party",
+      "purpose": "local gym offers",
+      "consent": "opt_in",
+      "source": "Fictional trap case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "approximate location"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P4",
+    "policy_explanation": "announced in P4",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      7,
+      12,
+      13,
+      36,
+      40
+    ],
+    "justification": "The processing is lawful as the data subject has given valid consent to the processing of their personal data for the purpose of receiving offers from the local gym's advertising partner. The consent was provided in a clear and unambiguous manner, and the use of the data is disclosed. Additionally, the consent is necessary for the performance of a contract, as the data subject is receiving services from the local gym, and the processing is necessary for the performance of that contract. The risk is low due to the valid legal basis of consent and the fact that the processors are under contract, ensuring compliance with the GDPR requirements.",
+    "recommendation": "No immediate recommendations are required as the current legal basis of consent is valid and the processors are under contract. However, it is recommended to periodically review the data processing activities to ensure ongoing compliance with GDPR.",
+    "seconds": 32.2
+  },
+  {
+    "flow_id": "TRP-05",
+    "flow": {
+      "flow_id": "TRP-05",
+      "event_name": "data_retention",
+      "data_fields": "full account history",
+      "recipient": "StepWell servers",
+      "recipient_type": "internal",
+      "purpose": "kept \"as long as necessary\" (no defined period)",
+      "consent": "bundled",
+      "source": "Fictional trap case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "account data"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P5",
+    "policy_explanation": "announced in P5",
+    "risk_level": "medium",
+    "risk_reasons": [
+      "no defined retention period"
+    ],
+    "cited_articles": [
+      5,
+      6,
+      13
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      5,
+      6,
+      13,
+      14,
+      17,
+      18
+    ],
+    "justification": "The data subject does not have prior information on the specific purpose of further processing of their personal data for StepWell's servers, as the retention period is indefinite and consent is bundled. According to GDPR Article 13(3), where the controller intends to further process personal data for a purpose other than that for which they were initially collected, the controller must provide the data subject with information on that purpose and any relevant further information. However, Article 13(4) states that paragraphs 1, 2, and 3 do not apply where the data subject already has the information. In this case, the data subject does not have the information as the retention period is indefinite and consent is bundled, making it impossible to provide the required information.",
+    "recommendation": "Alibaba Cloud should establish a defined retention period for the full account history and provide the data subject with clear information on the specific purpose of further processing their personal data for StepWell's servers, in accordance with GDPR Article 13(3). This will ensure compliance with the regulation and protect the rights and freedoms of the data subject.",
+    "seconds": 34.1
+  },
+  {
+    "flow_id": "TRP-06",
+    "flow": {
+      "flow_id": "TRP-06",
+      "event_name": "crash_report",
+      "data_fields": "device model, OS version, crash stack trace",
+      "recipient": "Crash reporting provider",
+      "recipient_type": "processor",
+      "purpose": "fixing app crashes under a processor contract",
+      "consent": "general_terms",
+      "source": "Fictional trap case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "device information and app logs"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P6",
+    "policy_explanation": "announced in P6",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      28,
+      82
+    ],
+    "justification": "The processing of device model, OS version, and crash stack trace by the Crash reporting provider is carried out on behalf of the controller (the device owner) under a processor contract. The use of the processor is justified by the general terms of the contract, which provide sufficient guarantees for the appropriate technical and organizational measures. Additionally, the consent provided by the data subject (the user of the device) is a valid legal basis for the processing, ensuring compliance with GDPR Article 6(1)(a).",
+    "recommendation": "No immediate recommendations are necessary as the current arrangements align with the requirements of GDPR Article 6 and Article 28. However, it is recommended to review and update the processor contracts to ensure ongoing compliance with the evolving requirements of the GDPR.",
+    "seconds": 30.2
+  },
+  {
+    "flow_id": "TRP-07",
+    "flow": {
+      "flow_id": "TRP-07",
+      "event_name": "newsletter",
+      "data_fields": "email address",
+      "recipient": "Email delivery provider",
+      "recipient_type": "processor",
+      "purpose": "sending the newsletter",
+      "consent": "opt_in",
+      "source": "Fictional trap case"
+    },
+    "special_category": false,
+    "special_reason": "not a special category",
+    "llm_opinion": {
+      "health_or_sex_life": false,
+      "data_description": "GDPR Art. 9(1)e - Sex life"
+    },
+    "needs_human_review": false,
+    "contradicts_policy": false,
+    "policy_reference": "P7",
+    "policy_explanation": "announced in P7",
+    "risk_level": "low",
+    "risk_reasons": [
+      "use disclosed, valid legal basis or consent, processors under contract"
+    ],
+    "cited_articles": [
+      6,
+      7,
+      28
+    ],
+    "retrieval_misses": [],
+    "retrieved_articles": [
+      6,
+      7,
+      13,
+      14,
+      19,
+      28,
+      40
+    ],
+    "justification": "The processing of personal data for the purpose of sending newsletters is lawful as the data subject provided consent (Article 6(1)(a) GDPR). The use of a processor is also compliant as the processor is under contract and has provided sufficient guarantees to ensure the protection of the data subject's rights (Article 28 GDPR).",
+    "recommendation": "No further action is required as the current data flow complies with the GDPR requirements. However, regular audits should be conducted to ensure ongoing compliance.",
+    "seconds": 26.5
+  }
+]

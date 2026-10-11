@@ -1,0 +1,8 @@
+flow_id,contradicts_policy,risk_level,expected_articles,rationale
+TRP-01,no,medium,9;7,"Used for the user's own dashboard (announced in P2), but heart rate and sleep are health data and the consent is bundled with the terms, so not explicit (art. 7, 9). Same logic as FLO-10"
+TRP-02,yes,high,9;7;13,"Health data sent to an insurer for offers; P3 says 'improve our services', too vague to cover this; no explicit consent"
+TRP-03,yes,medium,44;13;28,"Transfer to the United States is not disclosed (policy silent on transfers outside the EU)"
+TRP-04,no,low,6;7,"Looks alarming but compliant: location is not a special category, disclosed in P4, separate opt-in, can be withdrawn"
+TRP-05,no,medium,5;13,"Storage limitation: 'as long as necessary' gives no period or criteria (art. 5(1)(e), 13(2)(a))"
+TRP-06,no,low,28,"Processor under contract, no health data (P6)"
+TRP-07,no,low,6;7,"Unticked box: valid opt-in consent for marketing emails (P7)"

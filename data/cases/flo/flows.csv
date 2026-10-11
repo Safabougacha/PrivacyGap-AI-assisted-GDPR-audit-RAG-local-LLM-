@@ -1,0 +1,12 @@
+flow_id,event_name,data_fields,recipient,recipient_type,purpose,consent,source
+FLO-01,R_SELECT_LAST_PERIOD_DATE,date of the last menstrual period,Meta (Facebook) SDK,third_party,targeted advertising and analytics,general_terms,"Event name shown at trial, Frasco v. Flo Health (2025)"
+FLO-02,pregnancy goal event (name not public),pregnancy status and intention to get pregnant,Meta (Facebook) SDK,third_party,targeted advertising and analytics,general_terms,"FTC complaint (2021); Frasco v. Flo Health"
+FLO-03,cycle settings event (name not public),menstrual cycle length,Meta (Facebook) SDK,third_party,targeted advertising and analytics,general_terms,"Examples reported in court (case study, slide 'What data they used')"
+FLO-04,symptoms event (name not public),"symptoms: mood swings, cramps, PMS, fatigue",Meta (Facebook) SDK,third_party,targeted advertising and analytics,general_terms,"Case study, slide 'What data was leaked'"
+FLO-05,sexual activity event (name not public),sexual activity logs,Meta (Facebook) SDK,third_party,targeted advertising and analytics,general_terms,"Frasco v. Flo Health; case study"
+FLO-06,health-related app events (names not public),app events revealing period and pregnancy intention,Google Analytics SDK,third_party,usage analytics and campaign tracking,general_terms,"FTC complaint (2021); case study, SDK table"
+FLO-07,app_open / conversion events,device identifier and conversion events,AppsFlyer SDK,third_party,marketing attribution,general_terms,"Case study, SDK table"
+FLO-08,usage analytics events,app usage and behavioural metrics,Yahoo Flurry SDK,third_party,behavioural analytics,general_terms,"Case study, SDK table; Flurry settled in March 2025"
+FLO-09,advertising identifier,advertising ID (IDFA / GAID) for cross-platform tracking,Ad networks via SDKs,third_party,retargeting and cross-platform tracking,general_terms,"Case study, slide 'What data was leaked'"
+FLO-10,cycle prediction sync,cycle dates and symptoms,Flo servers,internal,cycle predictions shown to the user,general_terms,"Core app service (case study, 'Data Flow' slide)"
+FLO-11,account hosting,account data and app content,Cloud hosting provider,processor,web hosting under contract,general_terms,"Policy P4 (essential technical services)"
